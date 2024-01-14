@@ -5,9 +5,9 @@ const app: Application = express();
 app.use(express.json());
 app.use(cors());
 app.get('/', (req: Request, res: Response) => {
-  res.send('Hello World Belallllll!');
+  res.send("WELLCOME TO OUR SERVER");
 });
 
-console.log('Hello World Belallllll!');
+
 
 export default app;
